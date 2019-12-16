@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".AddEvent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:layout_width="@dimen/logo_w_h"
+            android:layout_height="@dimen/logo_w_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo_fix"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_text_event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Judul Promo"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_text_event_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Masa Berlaku"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_text_event_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Deskripsi Event"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn"
+            android:text="Upload Gambar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_choose_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/bg_btn"
+            android:text="Lokasi"
+            android:textColor="@android:color/white" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_tambah"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_btn"
+            android:text="Tambah"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

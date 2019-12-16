@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "11500344504",
+    "firebase_url": "https://five-edb41.firebaseio.com",
+    "project_id": "five-edb41",
+    "storage_bucket": "five-edb41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11500344504:android:f6da5f78e336020e",
+        "android_client_info": {
+          "package_name": "papb.project.hisam.five_baru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11500344504-rq6nn10s39vfq6ns8d2epe1j7h1o0me4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "papb.project.hisam.five_baru",
+            "certificate_hash": "ae1b89e3c7072d02e4a19c90518ce51893d81591"
+          }
+        },
+        {
+          "client_id": "11500344504-74e6tehbg8hkulclroo0rvphoq3gmv1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9mTpE6AW3KUeH9NgopO3y7vYVkaE6GrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11500344504-74e6tehbg8hkulclroo0rvphoq3gmv1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
